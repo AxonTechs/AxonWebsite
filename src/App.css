@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+.blank{
+
+  color: red;
+} 
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .card {
+  background-color: #333;
+  color: white;
+}
+ 
+.alert-container {
+  position: fixed; /* or position: absolute; */
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000; /* Adjust the z-index as needed */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
