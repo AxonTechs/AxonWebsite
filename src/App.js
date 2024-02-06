@@ -5,10 +5,8 @@ function App () {
 
   return ( 
     <>
-    <h1>hello</h1>
-
+    <h1 className='my-5 d-flex justify-content-center'>How are you</h1>
   </>
   );
 };
-
 export default App;
