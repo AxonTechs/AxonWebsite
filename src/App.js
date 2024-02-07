@@ -1,12 +1,15 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router  } from "react-router-dom";
+import AppRoutes from "./routes";
 
-function App () { 
-
-  return ( 
-    <>
-    <h1 className='my-5 d-flex justify-content-center'>How are you</h1>
-  </>
+function App() {
+  return (
+    <Router>
+      <div className=""> 
+        <AppRoutes />
+      </div>
+    </Router>
   );
-};
+}
+
 export default App;

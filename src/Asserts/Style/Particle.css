@@ -1,0 +1,55 @@
+/* Particle.css */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+
+
+.particle-container {
+    position: relative;
+  }
+  
+  .particle-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d97701; 
+    border-radius: 5px; 
+  } 
+
+  .particle-text {
+    color: #ffffff; 
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 14px; 
+    font-weight: 700;
+}
+
+.Axon{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+
+  }
+ 
+  
+  .Axon span:nth-child(1) {
+    font-size: 60px; 
+  }
+
+  .Axon span:nth-child(2) {
+    color:#d97701;
+    font-size: 70px;
+  }
+
+  
+  
