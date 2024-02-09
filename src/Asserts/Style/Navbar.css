@@ -41,3 +41,8 @@ height: 50px;
     font-weight: bold;
     padding: 5px;
 }
+.navbar {
+  position: relative;
+  z-index: 2; /* Set a higher value */
+  /* Other styles */
+}

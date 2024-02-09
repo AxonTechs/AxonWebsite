@@ -47,9 +47,9 @@ export default function Navbar() {
       };
     }, [activeLink]);
   
-    return (
+    return (  
+      
         <>
-       
             <nav className="navbar navbar-expand-lg">
               <div className="container px-3">
                 <a className="navbar-brand btn-light" href="/">

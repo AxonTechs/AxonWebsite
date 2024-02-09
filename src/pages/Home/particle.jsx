@@ -1,7 +1,10 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import Particles, { initParticlesEngine } from '@tsparticles/react';
-import { loadSlim } from '@tsparticles/slim'; 
-import "../../Asserts/Style/Particle.css"
+import { loadSlim } from '@tsparticles/slim';
+import Typewriter from 'typewriter-effect';
+import "../../Asserts/Style/Particle.css";
+
+
 
 export default function Particle() {
   const [init, setInit] = useState(false);
@@ -17,6 +20,7 @@ export default function Particle() {
   const particlesLoaded = (container) => {
     console.log(container);
   };
+
 
   const options = useMemo(
     () => ({
@@ -90,29 +94,26 @@ export default function Particle() {
   );
 
   if (init) {
-    return (
-      <div >
+    return ( 
+      
+      <div className='particle-container'>
         <Particles
           id="tsparticles"
           particlesLoaded={particlesLoaded}
           options={options}
-        
         />
         <div className="particle-box">
-          <p className="particle-text">The accurate IT solution for you</p> 
+          <p className="particle-text">The accurate IT solution for you</p>
         </div> 
 
-
-       <div className='Axon'>
-            <span >WE'RE</span>  <span>AXON</span>
-          </div>
+        <div className='Axon'>
+        <span> 
+            <Typewriter options={{strings: ["WE'RE AXON"], autoStart: true, loop: true, }}  /> 
+            </span> 
+        </div>
       </div>
-      
     );
   }
 
-
-
-
-  return <></>;
+  return <> </>;
 }

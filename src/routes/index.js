@@ -1,22 +1,18 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Navbar from "../components/Navbar/Navbar";
+import Navbar from "../layout/Header/Navbar";
 import { ROUTES } from "./routerConfig";
-import Particle from "../components/Particle/particle";
-import ClickAway from "../pages/Click/ClickAway";
+import Home from "../pages/Home";
+
 
 const AppRoutes = () => {
   return (
-    <>
+    <> 
+     <Navbar />
       <Routes> 
         <Route
           path={ROUTES.Home}
-          element={
-            <> 
-              <Particle/>
-              <Navbar /> 
-              <ClickAway/>
-            </>
+          element={<Home/>
            }
          />
        </Routes>
