@@ -8,8 +8,11 @@ export default function Navbar() {
     const handleNavToggle = () => {
       setIsNavCollapsed(!isNavCollapsed);
     };
+
+    
   
     const [activeLink, setActiveLink] = useState("home");
+    
   
     useEffect(() => {
       const handleScroll = () => {

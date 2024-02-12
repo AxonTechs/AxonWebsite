@@ -7,15 +7,18 @@ import Home from "../pages/Home";
 
 const AppRoutes = () => {
   return (
-    <> 
-     <Navbar />
-      <Routes> 
+    <>
+      <Navbar />
+      <Routes>
         <Route
           path={ROUTES.Home}
-          element={<Home/>
-           }
-         />
-       </Routes>
+          element={
+            <> 
+            <Home/>
+            </>
+          }
+        />
+      </Routes>
     </>
   );
 };

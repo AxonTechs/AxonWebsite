@@ -1,14 +1,17 @@
 import React from 'react'
-import Particle from './particle'
+import PremiumTech from './PremiumTech'
 import Click from './Click'
+import ParticleBg from './ParticleBg'
+import ChooseUs from './ChooseUs'
 
-const Home = () => {
+
+export default function Home() {
   return (
-    <div>
-       <Particle />
-       <Click/>
+    <div> 
+        <ParticleBg/> 
+        <Click/> 
+       <PremiumTech/> 
+       <ChooseUs/>
     </div>
   )
 }
-
-export default Home

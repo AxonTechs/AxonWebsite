@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.mid {
+  background: #efebf8;
+  padding: 140px;
+  margin: 26px 0;
+}
+
+.secc-title {
+  text-transform: uppercase;
+  line-height: 45px;
+  color: #dc7603;
+  margin: -100px 76px;
+}
+
+.web {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.WebApp {
+  color: #dc7603;
+}
+.Card1 {
+  background: #efebf8;
+}
+.Desktop {
+  color: #dc7603;
+  font-size: 38px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Building {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0;
+}
+
+.web2 {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Desktop2 {
+  color: blue;
+  font-size: 38px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

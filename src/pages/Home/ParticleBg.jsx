@@ -7,7 +7,7 @@ import "../../Asserts/Style/Particle.css";
 
 
 export default function Particle() {
-  const [init, setInit] = useState(false);
+  const [init, setInit] = useState(false);  
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
@@ -17,18 +17,24 @@ export default function Particle() {
     });
   }, []);
 
-  const particlesLoaded = (container) => {
+  const loadParticles = (container) => {
     console.log(container);
   };
-
-
+  
   const options = useMemo(
-    () => ({
+    () => ({ 
+      fullScreen: {
+        "enable": false,
+        "zIndex": -1,
+    },  
       background: {
         color: {
           value: "#000000",
         },
-      },
+      }, 
+
+
+
       fpsLimit: 180,
       interactivity: {
         events: {
@@ -92,14 +98,13 @@ export default function Particle() {
     }),
     []
   );
-
   if (init) {
     return ( 
       
-      <div className='particle-container'>
+     <div className='particle'>
         <Particles
           id="tsparticles"
-          particlesLoaded={particlesLoaded}
+          init={loadParticles}
           options={options}
         />
         <div className="particle-box">
