@@ -8,10 +8,6 @@ import { FaPaintbrush } from "react-icons/fa6";
 import { IoBluetoothSharp } from "react-icons/io5";
 import { IoSearch } from "react-icons/io5";
 import { CiSettings } from "react-icons/ci";
-
-
-
-
 import "../../Asserts/Style/Premium.css";
 
 export default function PremiumTech() {
@@ -122,7 +118,7 @@ export default function PremiumTech() {
           <Col lg={3}  className=" web2 ">
             <Card className=" border-0 hover-effect Card1">
               <Card.Body>
-              <div className="Desktop2">
+              <div className="Desktop">
               <IoBluetoothSharp />
                 </div>
                 <Card.Subtitle className="mb-2 mx-5 ">

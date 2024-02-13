@@ -1,0 +1,26 @@
+.bgg{
+    background-image: url(https://axontechs.com/wp-content/uploads/2021/07/req-quote-bg.png);
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        background: rgba(0, 0.5, 0, 0.9);
+        color: white;
+
+    }
+
+    .req-quote {
+        padding: 80px 0;
+        position: relative;
+    }
+
+    .NextProject{
+        margin: 32px 279px;
+    }
+
+    .byth{
+        background-color: transparent;
+        color: white; 
+        padding: 18px 35px;
+    }

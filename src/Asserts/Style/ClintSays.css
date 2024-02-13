@@ -1,0 +1,48 @@
+.bk{
+    background-image: url(https://axontechs.com/wp-content/uploads/2021/07/testimonial-bg.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+
+.testimonial {
+    padding-bottom: 35px;
+    padding-top: 35px;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+
+.Clintsays{
+    color: #dc7603;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.Outstanding {
+    color: gray;
+    font-size: 18px;
+    margin: 32px 279px;
+}
+
+.Blabs{
+    color: #dc7603;
+    font-weight: 200;
+}
+
+.DoubleQou{
+    color: #dc7603;
+}
+
+.Dash{
+    color: #dc7603;
+    margin-top: 100px;
+}
+
+.display-1{
+    font-size: 3rem;
+}

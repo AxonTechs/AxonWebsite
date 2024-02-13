@@ -1,33 +1,31 @@
 .sec-title {
-        text-transform: uppercase;
-        line-height: 45px;
-        color: #dc7603;
-        margin: 0 25px;
-        margin-bottom: 30px;
-    }
+  text-transform: uppercase;
+  line-height: 45px;
+  color: #dc7603;
+  margin: 0 25px;
+  margin-bottom: 30px;
+}
 
-    .sub-title {
-        text-transform: lowercase;
-        font-size: 32px;
-        margin-top: 24px;
-        color: grey;
-        text-decoration: none;
-    }
+.sub-title {
+  text-transform: lowercase;
+  font-size: 32px;
+  margin-top: 24px;
+  color: grey;
+  text-decoration: none;
+}
 
-    .btn-more {
-        margin-top: 30px;
-        padding: 6px 30px;
-    }
+.btn-more {
+  margin-top: 30px;
+  padding: 6px 30px;
+}
 
-    .btn-primary {
-        background-color: #dc7603;
-        border-color: #dc7603;
-    }
+.btn-primary {
+  background-color: #dc7603;
+  border-color: #dc7603;
+}
 
-    .btn {
-        border-radius: 0px;
-        text-transform: uppercase;
-        padding: 4px 27px; 
-    }
-
-  
+.btn {
+  border-radius: 0px;
+  text-transform: uppercase;
+  padding: 4px 27px;
+}

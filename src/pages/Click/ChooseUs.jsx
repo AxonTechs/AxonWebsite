@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 export default function ChooseUs() {
   return (
     <> 
-      <section className="why-us bg-img" style={{ backgroundImage: "url(https://axontechs.com/wp-content/uploads/2021/07/why-us-bg-scaled.jpg)" }}>
+      <section className="why-us bggg">
         <div className="container">
           <div className="row">
             <div className="col-md-4 col-sm-12 wow fadeIn" data-wow-delay="0.3s" style={{ visibility: "visible", animationDelay: "0.3s", animationName: "fadeIn" }}>
@@ -54,7 +54,7 @@ export default function ChooseUs() {
             </div>
           </div>
         </div>
-      </section>
+      </section> 
     </>
   );
 }
