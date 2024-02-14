@@ -8,17 +8,20 @@ import { FaPaintbrush } from "react-icons/fa6";
 import { IoBluetoothSharp } from "react-icons/io5";
 import { IoSearch } from "react-icons/io5";
 import { CiSettings } from "react-icons/ci";
-import "../../Asserts/Style/Premium.css";
+import "../../Asserts/Style/Premium.css"; 
+import ScrollAnimation from 'react-awesome-reveal';
 
 export default function PremiumTech() {
   return (
   <>
-  <div className='px-2 mid'> 
-  <Container>
-  <div  className='class="col-md-12 col-md-offset-1 col-sm-12 text-center wow fadeInUp" '> 
+  <div className='px-2 mid'>  
+  <Container> 
+  <ScrollAnimation animateIn="bounceIn" duration={400} offset={1000} triggerOnce={true}> 
+  <div  className="col-md-12 col-sm-12 text-center" > 
   <h1 className='secc-title'> WE CREATE PREMIUM TECHNOLOGY, DESIGN, WEB  MOBILE APPS SOLUTIONS. </h1> 
   </div>
-
+  </ScrollAnimation> 
+  <ScrollAnimation animateIn="bounceIn" duration={400} offset={1000} triggerOnce={true}> 
   <Row className="mt-4">
           <Col lg={3}  className=" web ">
             <Card className=" border-0 hover-effect Card1">
@@ -173,7 +176,7 @@ export default function PremiumTech() {
             </Card>
           </Col>
         </Row>
-
+        </ScrollAnimation> 
 
   </Container>
   

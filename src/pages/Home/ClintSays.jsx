@@ -3,13 +3,15 @@ import { Container } from 'react-bootstrap'
 import "../../Asserts/Style/ClintSays.css";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { GoDash } from "react-icons/go";
+import ScrollAnimation from 'react-awesome-reveal';
 
 
 export default function ClintSays() {
   return (
-   <> 
+   <>  
    <div className=' testimonial bk'>  
    <Container>
+   <ScrollAnimation animateIn="fadeIn" duration={400} offset={1000} triggerOnce={true}> 
   <div>
    <h3 className=' Clintsays d-flex justify-content-center'> WHAT CLIENT SAYS?</h3>
   </div>
@@ -30,7 +32,7 @@ export default function ClintSays() {
 <div>
     
 </div>
-
+</ScrollAnimation> 
    </Container>
    </div>
    </>

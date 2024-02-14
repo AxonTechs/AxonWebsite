@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .About-Color{
+    color: orange;
+  }
+
+  .About-Color2{
+    color: grey;
+    justify-content: flex-end;
+    display: flex; 
+    align-items: end;
+    font-size: 20px;
+  }
+
+  
+  .About-Back-Color{
+    background: darkgray;
+    padding: 140px;
+    margin-top: 25px ;
+
+  }
+  .Axon-brings{
+   text-align: center;
+   font-size: 28px;
+  }

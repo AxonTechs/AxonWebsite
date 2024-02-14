@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, Col, Container, Row} from 'react-bootstrap'
 import "../../Asserts/Style/Strategy.css";
-
+import ScrollAnimation from 'react-awesome-reveal';
 
 export default function Strategy() {
   return (
@@ -9,7 +9,8 @@ export default function Strategy() {
   <div className=' px-2 mid2'> 
   
   <Container>  
-  <Row> 
+  <ScrollAnimation animateIn="fadeIn" duration={400} offset={1000} triggerOnce={true}> 
+  <Row>  
       <Col md={3}>
       <Card className="strategy">
       <div className=' d-flex justify-content-center align-items-center circle-container '> 
@@ -59,8 +60,8 @@ export default function Strategy() {
       </Card.Body>
     </Card>
       </Col>
-
-    </Row> 
+    </Row>  
+    </ScrollAnimation>
   </Container>
   
   </div>

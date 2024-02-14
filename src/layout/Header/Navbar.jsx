@@ -8,12 +8,8 @@ export default function Navbar() {
     const handleNavToggle = () => {
       setIsNavCollapsed(!isNavCollapsed);
     };
-
-    
-  
     const [activeLink, setActiveLink] = useState("home");
     
-  
     useEffect(() => {
       const handleScroll = () => {
         const scrollPosition = window.scrollY;
@@ -106,7 +102,7 @@ export default function Navbar() {
 
                      <li
                   className={`nav-item ${
-                    activeLink === "about" ? "active" : ""
+                    activeLink === "portfolio" ? "active" : ""
                   }`}
                   onClick={() => setActiveLink("portfolio")}
                 >
@@ -141,7 +137,7 @@ export default function Navbar() {
                   className={`nav-item ${
                     activeLink === "career" ? "active" : ""
                   }`}
-                  onClick={() => setActiveLink("blog")}
+                  onClick={() => setActiveLink("career")}
                 >
                     <NavLink
                         className="nav-link"
@@ -156,7 +152,7 @@ export default function Navbar() {
             
                 <li
                   className={`nav-item ${
-                    activeLink === "Contact" ? "active" : ""
+                    activeLink === "contact" ? "active" : ""
                   }`}
                   onClick={() => setActiveLink("contact")}
                 >
