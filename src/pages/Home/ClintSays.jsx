@@ -29,9 +29,6 @@ export default function ClintSays() {
  <h1 className='d-flex justify-content-center align-items-center DoubleQou'> <RiDoubleQuotesL /> </h1>
 </div> 
 <h1 className='d-flex justify-content-center align-items-center Dash'> <GoDash className='display-1' /></h1>
-<div>
-    
-</div>
 </ScrollAnimation> 
    </Container>
    </div>

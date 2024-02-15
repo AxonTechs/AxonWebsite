@@ -29,11 +29,11 @@ height: 50px;
 }  
 
 .navbar-nav .nav-link {
-    color: #D9D9D9 !important;
+    color: orange !important;
   }
 
   .nav-item .active {
-    border-bottom: 2px solid white; 
+    border-bottom: 2px solid orange; 
     text-decoration: none;
 
     padding: 5px;

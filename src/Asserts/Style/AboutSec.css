@@ -11,13 +11,14 @@
     color: grey;
     justify-content: flex-end;
     display: flex; 
-    align-items: end;
+    align-items: flex-end;
     font-size: 20px;
   }
 
   
   .About-Back-Color{
-    background: darkgray;
+    background: #000000cf;
+    color: white;
     padding: 140px;
     margin-top: 25px ;
 
@@ -26,3 +27,80 @@
    text-align: center;
    font-size: 28px;
   }
+
+  .pg-inner {
+    padding: 55px 0;
+} 
+
+
+.tabs-links {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+} 
+
+
+.text-center {
+    text-align: center;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+.tabs-links .nav-tabs li {
+    display: inline-block;
+    float: none;
+}
+
+.nav-tabs>li {  
+    float: left;
+    margin-bottom: -1px;
+}
+.nav>li {
+    position: relative;
+    display: block;
+}
+
+.nav-tabs > li > a {
+    background-color: #f4f4f4;
+    border: medium none !important;
+    border-radius: 0;
+    color: #dc7603;
+    margin-right: 0;
+    padding: 12.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+a, .btn {
+    transition: all 0.3s ease-in-out 0s;
+}
+a {
+    text-decoration: none !important;
+    outline: none !important;
+    color: #dc7603;
+}
+a {
+    background-color: transparent;
+}
+
+
+.tab-content.pg-about p {
+    font-weight: 300;
+    color: grey;
+    text-align: center;
+    font-size: 25px;
+}

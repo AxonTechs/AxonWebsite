@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .Contact-Color{
+    color: orange;
+  }
+
+  .Contact-Color2{
+    color: grey;
+    justify-content: flex-end;
+    display: flex; 
+    align-items: flex-end;
+    font-size: 20px;
+  }
+  .ContactCard{
+    background-color: #F7F7F7;
+    margin: 80px 0px;
+    padding: 20px 25px;
+    position: relative;
+  }
+  .Office-card{
+    font-weight: 300;
+    color: orange;
+  }
+  .Headquater-card{
+    color:#8294B1
+  }
+  .fahome{
+  position: absolute;
+  left: 10px; 
+  color: orange;
+  font-size: 20px;
+  } 
+
+  .Subcard{
+    border: none;
+    border-radius: none;
+    margin-top: 75px;
+  }
+  
+
+  #formName{
+    width: 16rem;
+    border-radius: 2px;
+    
+  }
+
+  #formSubject{
+    border-radius: 2px;
+  }
+
+  
+.btn-outline {
+    background-color: transparent !important;
+}
+.SendMessage{
+    padding: 10px 20px;
+}
+
+.Text-color::placeholder {
+    color:#8294B1
+  }

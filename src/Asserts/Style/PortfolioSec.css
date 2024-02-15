@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .Portfolio-Color{
+    color: orange;
+  }
+
+  .Portfolio-Color2{
+    color: grey;
+    justify-content: flex-end;
+    display: flex; 
+    align-items: flex-end;
+    font-size: 20px;
+  }
+
+  
+  .Portfolio-Back-Color{
+    background: #000000cf;
+    color: white;
+    padding: 130px;
+    margin-top: 25px ;
+
+  }
+  .Axon-brings1{
+   text-align: center;
+   font-size: 30px;
+  }
+
+  .Axon-brings2{
+    text-align: center;
+    font-size: 28px;
+   }
+   .fortunate{
+    margin-left: 170px;
+   }
