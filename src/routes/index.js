@@ -12,7 +12,7 @@ import Career from "../pages/Career";
 
 const AppRoutes = () => { 
   const location = useLocation();
-  const pathsWithoutFooter = ["/career"];
+  const pathsWithoutFooter = [""];
 
   const hideFooter = pathsWithoutFooter.includes(location.pathname);
   return (

@@ -16,8 +16,11 @@ export default function AboutSec() {
 
     <Col lg={6}>
     <div>
-     <h3 className='About-Color2'> Home / About </h3> 
-    </div>
+  <h3 className='About-Color2'>
+    <a href='/' className=' mx-2'>Home</a> | <a href='/about' className=' About-Color2 link mx-2'>About</a>
+  </h3>
+</div>
+
     </Col>
    </Row>
   </Container> 

@@ -1,0 +1,107 @@
+.skills-card{
+    width: 18rem ;
+    background-color: transparent;
+    border: none;
+}
+
+.Dash2{
+    color: #dc7603;
+    margin-top: 10px;
+}
+
+.display-2{
+    font-size: 3rem;
+}
+.Ol-color{
+    color:  #dc7603;
+}
+.HTML{
+    color:  #dc7603;
+    font-size: 15px;
+}
+
+ .Experience{
+    color:  #E69985;
+ }
+
+ .Dott{
+    position: relative;
+ }
+
+ .Coding{
+    position: absolute;
+    top: 50px; 
+    left: 32px;
+    font-size: 13px; 
+    color: grey
+ }
+ .Coding2{
+    position: absolute;
+    top: 100px; 
+    left: 32px;
+    font-size: 13px;
+    color: grey
+
+ }
+  .Dott2{
+    position: relative;
+    top: 20px;
+ } 
+ 
+ .Coding3{
+    position: absolute;
+    top: 150px; 
+    left: 32px;
+    font-size: 13px;
+    color: grey
+
+ }
+  .Dott3{
+    position: relative;
+    top: 45px;
+ } 
+
+ .Coding4{
+    position: absolute;
+    top: 200px; 
+    left: 32px;
+    font-size: 13px;
+    color: grey
+
+ }
+  .Dott4{
+    position: relative;
+    top: 68px;
+ } 
+
+
+ .Coding5{
+    position: absolute;
+    top: 250px; 
+    left: 32px;
+    font-size: 13px;
+    color: grey
+
+ }
+  .Dott5{
+    position: relative;
+    top: 90px;
+ } 
+
+ .SkillsCard{
+    padding: 2px 25px;
+    margin-top: 32px;
+    background-color: #F6F6F6;
+    color: #dc7603;
+ }
+
+
+ .SUPERHEROES{
+    color: #dc7603;
+    font-size: 20px;
+    margin-top: 25px;
+ }
+
+ .GetBack{
+    color: grey
+ }

@@ -37,16 +37,18 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
+  overflow: hidden;
+
 }
 
 .Axon span:nth-child(1) {
   font-size: 60px;
 }
 
-.Axon span:nth-child(2) {
+ .Axon span:nth-child(2) {
   color: #d97701;
   font-size: 70px;
-}
+}   
 
 .Cursor {
   color: #ffffff;
@@ -56,3 +58,4 @@
 #tsparticles {
   height: 100vh;
 }
+

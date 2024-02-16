@@ -1,13 +1,11 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import Particles, { initParticlesEngine } from '@tsparticles/react';
-import { loadSlim } from '@tsparticles/slim';
-import Typewriter from 'typewriter-effect';
+import React, { useEffect, useMemo, useState } from "react";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
+import Typewriter from "typewriter-effect";
 import "../../Asserts/Style/Particle.css";
 
-
-
 export default function Particle() {
-  const [init, setInit] = useState(false);  
+  const [init, setInit] = useState(false);
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
@@ -20,20 +18,18 @@ export default function Particle() {
   const loadParticles = (container) => {
     console.log(container);
   };
-  
+
   const options = useMemo(
-    () => ({ 
+    () => ({
       fullScreen: {
-        "enable": false,
-        "zIndex": -1,
-    },  
+        enable: false,
+        zIndex: -1,
+      },
       background: {
         color: {
           value: "#000000",
         },
-      }, 
-
-
+      },
 
       fpsLimit: 180,
       interactivity: {
@@ -99,22 +95,21 @@ export default function Particle() {
     []
   );
   if (init) {
-    return ( 
-      
-     <div className='particle'>
-        <Particles
-          id="tsparticles"
-          init={loadParticles}
-          options={options}
-        />
+    return (
+      <div className="particle">
+        <Particles id="tsparticles" init={loadParticles} options={options} />
         <div className="particle-box">
           <p className="particle-text">The accurate IT solution for you</p>
-        </div> 
+        </div>
 
-        <div className='Axon'>
-        <span> 
-            <Typewriter options={{strings: ["WE'RE AXON"], autoStart: true, loop: true, }}  /> 
-            </span> 
+        <div className="Axon">
+          <Typewriter
+            options={{
+              strings: ["WE'RE <span style='color: orange;'>AXON</span>"],
+              autoStart: true,
+              loop: true,
+            }}
+          />
         </div>
       </div>
     );

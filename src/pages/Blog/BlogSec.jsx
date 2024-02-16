@@ -16,10 +16,13 @@ export default function BlogSec() {
  </div>
  </Col> 
 
- <Col lg={6}>
+ <Col lg={6}> 
  <div>
-  <h3 className='Blog-Color2'> Home | Portfolio </h3> 
- </div>
+ <h3 className='About-Color2'>
+    <a href='/' className=' mx-2'>Home</a> | <a href='/blog' className=' About-Color2 link mx-2'>Blog</a>
+  </h3>
+</div> 
+
  </Col>
 </Row>
 

@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-awesome-reveal';
 const RequestQuote = () => {
   return (
     <>
-      <section className="req-quote bgg" style={{backgroundImage: 'url(https://axontechs.com/wp-content/uploads/2021/07/req-quote-bg.png)'}}>
+      <section className="req-quote bgg" style={{backgroundImage: 'url(https://c4.wallpaperflare.com/wallpaper/32/721/217/black-gray-leather-texture-wallpaper-preview.jpg)'}}>
         <div className="container">
           <div className="row"> 
             <div className="col-lg-12 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">

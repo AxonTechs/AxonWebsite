@@ -32,13 +32,12 @@ const Footer = () => {
               <div className="col-md-4 col-lg-2 F-color Text-sizee">
                 <h4 className="About">COMPANT</h4>
                 <div>
-                  <p> HOME</p>
-                  <p> ABOUT AXON</p>
-                  <p> ABOUT AXON</p>
-                  <p> POTFOLIO</p>
-                  <p> BLOG</p>
-                  <p> CAREER</p>
-                  <p> CONTACT</p>
+                <p><a className="White_color" href="http://localhost:3000/">HOME</a></p>
+                <p><a className="White_color" href="http://localhost:3000/about">ABOUT</a></p>
+                <p><a className="White_color" href="http://localhost:3000/portfolio"> POTFOLIO</a></p>
+                <p><a className="White_color" href="http://localhost:3000/blog"> BLOG</a></p>
+                <p><a className="White_color" href="http://localhost:3000/career"> CAREER</a></p>
+                <p><a className="White_color" href="http://localhost:3000/contact"> CONTACT</a></p>
                 </div>
               </div>
 

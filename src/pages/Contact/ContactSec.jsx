@@ -23,7 +23,6 @@ export default function ContactSec() {
     
       const handleSubmit = (e) => {
         e.preventDefault();
-        // You can perform any actions with the form data here, like sending it to a server.
         console.log('Form Data:', formData);
       };
   return (
@@ -39,9 +38,11 @@ export default function ContactSec() {
           </Col>
 
           <Col lg={6}>
-            <div>
-              <h3 className='Contact-Color2'> Home | Contact </h3>
-            </div>
+          <div>
+        <h3 className='About-Color2'>
+        <a href='/' className=' mx-2'>Home</a> | <a href='/contact' className=' About-Color2 link mx-2'>Contact</a>
+       </h3>
+    </div> 
           </Col>
         </Row> 
       </Container>  

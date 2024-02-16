@@ -24,7 +24,7 @@ export default function ChooseUs() {
                   <br />
                   Simply put, we deliver and you grow.
                 </p>
-                <Button className="btn btn-default btn-more" href="https://axontechs.com/about/" target="_self">Read More</Button>
+                <Button className="btn btn-more" href="https://axontechs.com/about/" target="_self">Read More</Button>
               </div>
             </div>
             <div className="col-md-8 col-sm-12">
