@@ -1,10 +1,12 @@
+@import "../../../src/sass/Variable.scss";
+
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
   }
   .Blog-Color{
-    color: orange;
+    color: $brand-clr;
   }
 
   .Blog-Color2{

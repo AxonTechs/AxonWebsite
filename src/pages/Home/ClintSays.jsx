@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import "../../Asserts/Style/ClintSays.css";
+import "../../Asserts/Style/ClintSays.scss";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { GoDash } from "react-icons/go";
 import ScrollAnimation from 'react-awesome-reveal';

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import "../../Asserts/Style/AboutSec.css"
+import "../../Asserts/Style/AboutSec.scss"
 
 export default function AboutSec() {
   return (

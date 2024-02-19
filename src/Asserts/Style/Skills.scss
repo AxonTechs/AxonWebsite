@@ -1,3 +1,11 @@
+@import "../../../src/sass/Variable.scss";
+* {
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+ } 
+
+
 .skills-card{
     width: 18rem ;
     background-color: transparent;
@@ -5,7 +13,7 @@
 }
 
 .Dash2{
-    color: #dc7603;
+    color: $brand-clr;
     margin-top: 10px;
 }
 
@@ -13,10 +21,10 @@
     font-size: 3rem;
 }
 .Ol-color{
-    color:  #dc7603;
+    color:  $brand-clr;
 }
 .HTML{
-    color:  #dc7603;
+    color: $brand-clr;
     font-size: 15px;
 }
 
@@ -92,12 +100,12 @@
     padding: 2px 25px;
     margin-top: 32px;
     background-color: #F6F6F6;
-    color: #dc7603;
+    color: $brand-clr;
  }
 
 
  .SUPERHEROES{
-    color: #dc7603;
+    color:$brand-clr;
     font-size: 20px;
     margin-top: 25px;
  }
@@ -105,3 +113,8 @@
  .GetBack{
     color: grey
  }
+
+ .Skiz{
+   margin-bottom: 100px;
+ }
+

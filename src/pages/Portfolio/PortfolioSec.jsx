@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../Asserts/Style/PortfolioSec.css"
+import "../../Asserts/Style/PortfolioSec.scss"
 import { Col, Container, Row } from 'react-bootstrap'
 
 export default function PortfolioSec() {
@@ -10,7 +10,7 @@ export default function PortfolioSec() {
    
    <Container>
   <Row>
-   <Col lg={6}>
+   <Col lg={6} >
     <div>
      <h3 className='Portfolio-Color'> PORTFOLIO</h3> 
     </div>
@@ -18,7 +18,7 @@ export default function PortfolioSec() {
 
     <Col lg={6}>
     <div>
-  <h3 className='About-Color2'>
+  <h3 className='About-Color2 col-sm-6 col-lg-12 col-md-12'>
     <a href='/' className=' mx-2'>Home</a> | <a href='/portfolio' className=' About-Color2 link mx-2'>Portfolio</a>
   </h3>
 </div>
@@ -30,11 +30,11 @@ export default function PortfolioSec() {
 <div className='Portfolio-Back-Color'> 
 <Container>
 <div>
-<h1 className='Axon-brings'> OVER 200</h1>
-<h1 className='Axon-brings'> HAPPY CLIENT WORLDWIDE</h1>
+<h1 className='Axon-brings d-flex justify-content-center align-items-center'> OVER 200</h1>
+<h1 className='Axon-brings d-flex justify-content-center align-items-center'> HAPPY CLIENT WORLDWIDE</h1>
 
-<div className='col-md-8 fortunate my-5 '>
-<p className='Axon-brings2 '> We’re fortunate to work with fantastic clients from across the globe in over 11 countries on development,      design & marketing projects.</p>
+<div className='my-5 d-flex justify-content-center align-items-center'> 
+<p className='Axon-brings2 d-flex justify-content-center align-items-center col-lg-8'> We’re fortunate to work with fantastic clients from across the globe in over 11 countries on development, design & marketing projects.</p>
 </div>
 </div>
 </Container>

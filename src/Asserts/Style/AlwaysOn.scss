@@ -1,3 +1,6 @@
+
+@import "../../../src/sass/Variable.scss";
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +16,7 @@
   .secc-title {
     text-transform: uppercase;
     line-height: 45px;
-    color: #dc7603;
+    color:$brand-clr;
     margin: -100px 76px;
   }
   
@@ -24,14 +27,14 @@
     align-items: center;
   }
   .WebApp {
-    color: #dc7603;
+    color: $brand-clr;
   }
   .Card1 {
     background:  white;
     margin-bottom: 55px;
   }
   .Desktop {
-    color: #dc7603;
+    color: $brand-clr;
     font-size: 38px;
     margin-bottom: 10px;
     display: flex;

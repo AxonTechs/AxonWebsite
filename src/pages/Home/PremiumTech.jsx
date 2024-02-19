@@ -8,7 +8,7 @@ import { FaPaintbrush } from "react-icons/fa6";
 import { IoBluetoothSharp } from "react-icons/io5";
 import { IoSearch } from "react-icons/io5";
 import { CiSettings } from "react-icons/ci";
-import "../../Asserts/Style/Premium.css"; 
+import "../../Asserts/Style/Premium.scss"; 
 import ScrollAnimation from 'react-awesome-reveal';
 
 export default function PremiumTech() {

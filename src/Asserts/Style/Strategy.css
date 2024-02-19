@@ -1,3 +1,13 @@
+@import "../../../src/sass/Variable.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+} 
+
+
+
 .mid2 {
     background: #000000cf;
     padding: 60px;

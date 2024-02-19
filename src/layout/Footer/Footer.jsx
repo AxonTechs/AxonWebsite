@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Asserts/Style/footer.css";
+import "../../Asserts/Style/footer.scss";
 import { Container } from "react-bootstrap";
 import { FaFacebookF } from "react-icons/fa";
 import { RiInstagramLine } from "react-icons/ri";

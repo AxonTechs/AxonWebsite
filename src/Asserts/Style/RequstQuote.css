@@ -1,3 +1,11 @@
+@import "../../../src/sass/Variable.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  } 
+
 .bgg{
     /* background-image: url(https://axontechs.com/wp-content/uploads/2021/07/req-quote-bg.png); */
         display: block;

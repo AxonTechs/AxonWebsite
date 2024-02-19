@@ -1,10 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-  }
+@import "../../../src/sass/Variable.scss";
+
   .Portfolio-Color{
-    color: orange;
+    color: $brand-clr;
   }
 
   .Portfolio-Color2{
@@ -19,19 +16,17 @@
   .Portfolio-Back-Color{
     background: #000000cf;
     color: white;
-    padding: 130px;
+    padding: 150px;
     margin-top: 25px ;
 
   }
-  .Axon-brings1{
-   text-align: center;
-   font-size: 30px;
-  }
-
-  .Axon-brings2{
+  .Axon-brings2{  
     text-align: center;
     font-size: 28px;
-   }
-   .fortunate{
-    margin-left: 170px;
-   }
+   } 
+   
+   @media only screen and (max-width: 425px) {
+    .Portfolio-Back-Color {
+      padding: 40px;
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Container } from 'react-bootstrap'
-import "../../Asserts/Style/Click.css";
+import "../../Asserts/Style/Click.scss";
 
 export default function Click() {
   return (

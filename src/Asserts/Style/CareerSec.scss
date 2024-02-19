@@ -1,10 +1,13 @@
+@import "../../../src/sass/Variable.scss";
+
+
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
   }
   .Career-Color{
-    color: orange;
+    color: $brand-clr;
   }
 
   .Career-Color2{

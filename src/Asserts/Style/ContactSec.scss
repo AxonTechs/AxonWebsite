@@ -1,10 +1,13 @@
+@import "../../../src/sass/Variable.scss";
+
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-  }
+  } 
+
   .Contact-Color{
-    color: orange;
+    color: $brand-clr;
   }
 
   .Contact-Color2{
@@ -22,7 +25,7 @@
   }
   .Office-card{
     font-weight: 300;
-    color: orange;
+    color: $brand-clr;
   }
   .Headquater-card{
     color:#8294B1
@@ -30,7 +33,7 @@
   .fahome{
   position: absolute;
   left: 10px; 
-  color: orange;
+  color: $brand-clr;
   font-size: 20px;
   } 
 
@@ -42,7 +45,7 @@
   
 
   #formName{
-    width: 16rem;
+
     border-radius: 2px;
     
   }
@@ -57,8 +60,10 @@
 }
 .SendMessage{
     padding: 10px 20px;
+    margin-bottom: 15px;
 }
 
 .Text-color::placeholder {
     color:#8294B1
   }
+

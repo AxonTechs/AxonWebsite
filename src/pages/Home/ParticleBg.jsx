@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import Typewriter from "typewriter-effect";
-import "../../Asserts/Style/Particle.css";
+import "../../Asserts/Style/Particle.scss";
 
 export default function Particle() {
   const [init, setInit] = useState(false);

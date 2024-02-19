@@ -1,10 +1,12 @@
+@import "../../../src/sass/Variable.scss";
+
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
   }
   .About-Color{
-    color: orange;
+    color: $brand-clr;
   }
 
   .About-Color2{
@@ -71,7 +73,7 @@
     background-color: #f4f4f4;
     border: medium none !important;
     border-radius: 0;
-    color: #dc7603;
+    color: $brand-clr;
     margin-right: 0;
     padding: 12.5px;
     text-align: center;
@@ -91,7 +93,7 @@ a, .btn {
 a {
     text-decoration: none !important;
     outline: none !important;
-    color: #dc7603;
+    color: $brand-clr;
 }
 a {
     background-color: transparent;

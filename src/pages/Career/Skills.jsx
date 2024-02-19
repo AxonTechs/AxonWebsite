@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Button, Card, Col, Container, Form, Row } from 'react-bootstrap'
-import "../../Asserts/Style/Skills.css"
+import "../../Asserts/Style/Skills.scss"
 import { GoDash } from "react-icons/go";
 import { GoDotFill } from "react-icons/go";
 import { FaAngleDown } from 'react-icons/fa';
@@ -173,7 +173,7 @@ export default function Skills() {
 
 
 <Col lg={4}>
-<Card className='skills-card my-4'>
+<Card className='skills-card my-5'>
       <Card.Body>
         <Card.Title> <h1 className='Ol-color'>02</h1></Card.Title> 
         <div> 
@@ -200,7 +200,7 @@ export default function Skills() {
 
 
 <Col lg={4}>
-<Card className='skills-card my-4'>
+<Card className='skills-card my-5'>
       <Card.Body>
         <Card.Title> <h5 className='Ol-color'>Skills</h5></Card.Title>
         <Card.Text> 
@@ -231,7 +231,7 @@ export default function Skills() {
 </Row> 
 <Row>
 <Col lg={4}>
-<Card className='skills-card my-4'>
+<Card className='skills-card my-5'>
       <Card.Body>
         <Card.Title> <h1 className='Ol-color'>03</h1></Card.Title> 
         <div> 
@@ -256,7 +256,7 @@ export default function Skills() {
 </Col>  
 
 <Col lg={4}>
-<Card className='skills-card my-4'>
+<Card className='skills-card Skiz'>
       <Card.Body>
         <Card.Title> <h5 className='Ol-color'>Skills</h5></Card.Title>
         <Card.Text> 

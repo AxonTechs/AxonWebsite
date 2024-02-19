@@ -1,15 +1,21 @@
+@import "../../../src/sass/Variable.scss";
+
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
   }
-
-
 .logo{ 
 height: 50px;
-}
+} 
 
-.nav-item{
+
+ .navbar {
+  position: relative;
+  z-index: 1;  
+
+
+  .nav-item{
     padding: 12px;
     text-align: end;
 } 
@@ -29,17 +35,20 @@ height: 50px;
 }  
 
 .navbar-nav .nav-link {
-    color: orange !important;
+    color: $brand-clr !important;
   }
 
   .nav-item .active {
-    border-bottom: 2px solid orange; 
+    border-bottom: 2px solid $brand-clr; 
     text-decoration: none;
 
     padding: 5px;
 }
-.navbar {
-  position: relative;
-  z-index: 1; 
+
+
+
 }
+
+
+
 

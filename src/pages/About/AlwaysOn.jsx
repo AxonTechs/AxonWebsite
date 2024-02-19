@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
-import "../../Asserts/Style/AlwaysOn.css"
+import "../../Asserts/Style/AlwaysOn.scss"
 
 export default function AlwaysOn() {
   return (

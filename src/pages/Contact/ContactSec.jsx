@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Card, Form } from 'react-bootstrap';
-import "../../Asserts/Style/ContactSec.css"
+import "../../Asserts/Style/ContactSec.scss"
 import { FaHome } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
@@ -73,10 +73,10 @@ export default function ContactSec() {
     </Card>
           </Col>
 
-      <Col lg= {6}> 
+      <Col lg= {6} md={12}> 
       <Card className='Subcard'>
       <Form onSubmit={handleSubmit}>
-        <div className='d-flex justify-content-between'> 
+        <div className=''> 
       <Form.Group controlId="formName">
         <Form.Label></Form.Label>
         <Form.Control

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
-import "../../Asserts/Style/BlogSec.css"
+import "../../Asserts/Style/BlogSec.scss"
 
 export default function BlogSec() {
   return (

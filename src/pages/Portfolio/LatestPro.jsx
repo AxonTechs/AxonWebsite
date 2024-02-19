@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
-import "../../Asserts/Style/LatestPro.css"
+import "../../Asserts/Style/LatestPro.scss"
 import { GoDash } from "react-icons/go";
 
 export default function LatestPro() {
@@ -28,7 +28,7 @@ export default function LatestPro() {
    
     <div> 
 <h1 className='d-flex justify-content-center align-items-center Dash'> <GoDash className='display-1' /></h1>
-<h5 className='d-flex justify-content-center align-items-center Blabs'> WE'D LOVE TO HEAR ABOUT YOUR PROJECT</h5> 
+<h5 className='d-flex justify-content-center align-items-center Blabs '> WE'D LOVE TO HEAR ABOUT YOUR PROJECT</h5> 
 
 <div className='d-flex justify-content-center align-items-items my-4'>
 <a class="btn btn-primary btn-outline btn-big " href="https://axontechs.com/contact/">Start Now</a>

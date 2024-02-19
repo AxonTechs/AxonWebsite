@@ -1,5 +1,5 @@
 import React, {useState, useEffect}from 'react'
-import "../../Asserts/Style/Navbar.css"
+import "./Navbar.scss"
 import { NavLink } from 'react-router-dom';
 
 
